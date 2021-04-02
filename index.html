@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+<style media="screen">
+  @font-face {
+      font-family: 'SF UI Display';
+      src: url('SFUIDisplay-Bold.woff2') format('woff2'),
+          url('SFUIDisplay-Bold.woff') format('woff');
+      font-weight: bold;
+      font-style: normal;
+      font-display: swap;
+  }
+
+  @font-face {
+      font-family: 'SF UI Display';
+      src: url('SFUIDisplay-Light.woff2') format('woff2'),
+          url('SFUIDisplay-Light.woff') format('woff');
+      font-weight: 200;
+      font-style: normal;
+      font-display: swap;
+  }
+
+  @font-face {
+      font-family: 'SF UI Display';
+      src: url('SFUIDisplay-Thin.woff2') format('woff2'),
+          url('SFUIDisplay-Thin.woff') format('woff');
+      font-weight: 100;
+      font-style: normal;
+      font-display: swap;
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #FFFFFE;
+    font-family: 'SF UI Display';
+  }
+
+  h1{
+    font-family: 'SF UI Display';
+    font-weight: bold;
+    text-align: center;
+    color: black;
+
+  }
+
+  .wrap{
+    margin-top: 23%;
+    height: 500px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+  }
+
+  li {
+
+    display: inline-block;
+  }
+
+  li a {
+    display: block;
+    color: black;
+    font-family: 'SF UI Display';
+    font-weight: 600;
+    text-align: center;
+    padding: 14px 22px;
+    text-decoration: none;
+    transition: transform 1s, color 1s, background-color 1s;
+
+
+  }
+
+
+  li a:hover{
+
+    transform: translateX(1px);
+    background-color: #EEEEEE;
+    color: black;
+    text-decoration: none;
+    justify-content: center;
+
+  }
+
+  .test{
+    padding-top: 10px;
+    height: 300px;
+    width: 250px;
+    background-color: #fff;
+    box-shadow: 0 15px 30px 0 rgb(0 35 137 / 15%);
+    margin: 0 auto;
+    margin-bottom: 50px;
+    transition: all 0.3s;
+  }
+  .test:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 15px 30px 0 rgb(0 35 137 / 25%);
+  }
+  img{
+    padding-top: 10px
+    width: 64px;
+    height: 64px;
+  }
+  .btn{
+    background-color: #2BCD63;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 6px;
+    box-shadow: 0 10px 30px 0 rgb(0 0 0 / 30%);
+    transition: all 0.3s;
+  }
+  .btn:hover{
+    transform: translateY(-6px);
+    color: #EEEEEE;
+    box-shadow: 0 10px 30px 0 rgb(0 0 0 / 40%);
+  }
+  .also{
+    height: 70px;
+  }
+  .mainwrep{
+    margin-bottom: 140px;
+  }
+</style>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <div class="main">
+      <ul>
+ <li><a class="das" href="#producta">Products</a></li>
+ <li><a class="das" href="#rpc">ToS</a></li>
+ <li><a class="das" href="#pricing">Contact</a></li>
+ </ul>
+
+
+      <div data-aos="fade-up" class="wrap">
+        <center>
+        <h1>KancianoShop</h1>
+        <p>Best and cheapest shop in the internet.</p>
+      </center>
+      </div>
+
+      <section id="productia">
+        <div data-aos="fade-up" class="row">
+          <div class="col-sm 1">
+            <div class="test">
+              <center>
+              <h2>produkt</h2>
+              <img src="static/cart.png" alt=""></img>
+              <br>
+              <br>
+              <p>Cena: 10PLN</p>
+              <a href="#" class="btn">Kup</a>
+            </center>
+            </div>
+          </div>
+          <div class="col-sm 1">
+            <div class="test">
+              <center>
+              <h2>produkt</h2>
+              <img src="static/cart.png" alt=""></img>
+              <br>
+              <br>
+              <p>Cena: 10PLN</p>
+              <a href="#" class="btn">Kup</a>
+            </center>
+            </div>
+          </div>        
+          <div class="col-sm 1">
+            <div class="test">
+              <center>
+              <h2>produkt</h2>
+              <img src="static/cart.png" alt=""></img>
+              <br>
+              <br>
+              <p>Cena: 10PLN</p>
+              <a href="#" class="btn">Kup</a>
+            </center>
+            </div>
+          </div>
+          <div class="col-sm 1">
+            <div class="test">
+              <center>
+              <h2>produkt</h2>
+              <img src="static/cart.png" alt=""></img>
+              <br>
+              <br>
+              <p>Cena: 10PLN</p>
+              <a href="#" class="btn">Kup</a>
+            </center>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="tos">
+        <div class="mainwrep">
+        <h1>caly tos itp</h1>
+        <center>
+        <h3>$ 1</h3>
+        <p>bla bla bla</p>
+        <h3>$ 2</h3>
+        <p>bla bla bla zzabioinone</p>
+        <h3>$ 3</h3>
+        <p>bla bla bla</p>
+        </div>
+      </center>
+      </section>
+      <section id="contect">
+        <div class="mainwrep">
+          <center>
+            <h1>Contact forms</h1>
+            <h3>Discord</h3>
+            <a class="btn" href="https://discord.gg/HM5egCahHZ ">Join</a>
+            <br>
+            <h3>Email</h3>
+            <a class="btn" href="mailto:contact@kancianoshop.pl">contact@kancianoshop.pl</a>
+          </center>
+        </div>
+      </section>
+    </div>
+
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+  AOS.init();
+  </script>
+  </body>
+</html>
